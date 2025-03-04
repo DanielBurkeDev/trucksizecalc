@@ -1,0 +1,118 @@
+/* .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .trucksize-result {
+  display: none;
+} */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #ffffffde;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url("./jack-atkinson-QMx15QE-6lM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.calculator-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.main-title {
+  border-bottom: 5px #4caf50;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 1.5rem;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #45a049;
+}
+.result {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  color: #333;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+  }
+  .calculator-container {
+    background-color: rgba(42, 42, 42, 0.568);
+  }
+  h1 {
+    color: #fff;
+  }
+  label {
+    color: #ddd;
+  }
+  select {
+    background-color: #333;
+    color: #fff;
+    border-color: #444;
+  }
+  .result {
+    background-color: #333;
+    color: #fff;
+  }
+}
