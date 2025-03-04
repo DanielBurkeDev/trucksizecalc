@@ -20,7 +20,7 @@ const getSize = function () {
     truckSizeResult.classList.add(
       "d-block",
       "animate__animated",
-      "animate__fadeIn"
+      "animate__bounceIn"
     );
   } else {
     truckSizeResultText = `The size suitable for ${deckSizeEl}" deck is ${truckBrandEl} ${truckSize}.`;
@@ -29,7 +29,7 @@ const getSize = function () {
     truckSizeResult.classList.add(
       "d-block",
       "animate__animated",
-      "animate__fadeIn"
+      "animate__bounceIn"
     );
   }
 
