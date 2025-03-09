@@ -16,7 +16,14 @@ const getSize = function () {
 
   if (truckSize === "Unknown") {
     truckSizeResultText = `There is no match with that Deck Size and Truck Brand.`;
+
     truckSizeResult.innerText = truckSizeResultText;
+    truckSizeResult.classList.remove(
+      "d-block",
+      "animate__animated",
+      "animate__bounceIn"
+    );
+    void truckSizeResult.offsetWidth;
     truckSizeResult.classList.add(
       "d-block",
       "animate__animated",
@@ -26,6 +33,12 @@ const getSize = function () {
     truckSizeResultText = `The size suitable for ${deckSizeEl}" deck is ${truckBrandEl} ${truckSize}.`;
 
     truckSizeResult.innerText = truckSizeResultText;
+    truckSizeResult.classList.remove(
+      "d-block",
+      "animate__animated",
+      "animate__bounceIn"
+    );
+    void truckSizeResult.offsetWidth;
     truckSizeResult.classList.add(
       "d-block",
       "animate__animated",
