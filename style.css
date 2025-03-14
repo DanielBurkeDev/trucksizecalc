@@ -57,6 +57,10 @@ body {
   text-align: center;
 }
 
+.intro-text {
+  /* text-align: center; */
+}
+
 h1 {
   color: #333;
   font-size: 2.5em;
@@ -67,6 +71,12 @@ h2 {
   font-size: 1.5em;
   margin-bottom: 1.5rem;
 }
+h3 {
+  color: #333;
+  font-size: 1.4em;
+  /* margin-bottom: 1.5rem; */
+}
+
 .form-group {
   margin-bottom: 1.5rem;
   text-align: left;
@@ -105,6 +115,15 @@ button:hover {
   border-radius: 6px;
   color: #333;
 }
+
+.faq-container {
+  padding: 1em;
+  background-color: rgba(42, 42, 42, 0.568);
+}
+
+#faqs > p {
+  margin-bottom: 1.3em;
+}
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #1a1a1a;
@@ -116,6 +135,9 @@ button:hover {
     color: #fff;
   }
   h2 {
+    color: #ddd;
+  }
+  h3 {
     color: #ddd;
   }
   label {
