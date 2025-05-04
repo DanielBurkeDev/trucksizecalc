@@ -26,6 +26,10 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  color: #4caf50;
+}
+
 body {
   margin: 0;
   display: flex;
